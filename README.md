@@ -14,7 +14,7 @@ Run the following example command to generate adversial attacks on IMDB data:
 python bertattack.py --data_path data_defense/imdb.tsv --mlm_path bert-base-uncased --tgt_path target_model_path --output_dir results/imdb_logs.tsv --num_label 2 --use_bpe 1 --k 48 --start 0 --end 500 --threshold_pred_score 0
 
 ### Target Model Path
-The tested model paths are listed below:
+The target model paths are listed below:
 
 - ag: textattack/bert-base-uncased-ag-news
 - imdb: textattack/bert-base-uncased-imdb
