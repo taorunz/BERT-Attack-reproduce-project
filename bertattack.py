@@ -179,7 +179,7 @@ def get_substitues(substitutes, tokenizer, mlm_model, use_bpe, substitutes_score
         else:
             return words
     #
-    print(words)
+    # print(words)
     return words
 
 
